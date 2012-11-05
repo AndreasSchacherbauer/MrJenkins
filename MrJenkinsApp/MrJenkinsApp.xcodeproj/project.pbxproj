@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B6429616486921007BBAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B6429516486921007BBAEC /* UIKit.framework */; };
+		A9B6429816486921007BBAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B6429716486921007BBAEC /* Foundation.framework */; };
+		A9B6429A16486921007BBAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B6429916486921007BBAEC /* CoreGraphics.framework */; };
+		A9B642A016486921007BBAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B6429E16486921007BBAEC /* InfoPlist.strings */; };
+		A9B642A216486921007BBAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B642A116486921007BBAEC /* main.m */; };
+		A9B642A616486921007BBAEC /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B642A516486921007BBAEC /* WTAppDelegate.m */; };
+		A9B642A816486921007BBAEC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B642A716486921007BBAEC /* Default.png */; };
+		A9B642AA16486921007BBAEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B642A916486921007BBAEC /* Default@2x.png */; };
+		A9B642AC16486921007BBAEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B642AB16486921007BBAEC /* Default-568h@2x.png */; };
+		A9B642AF16486921007BBAEC /* WTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B642AE16486921007BBAEC /* WTViewController.m */; };
+		A9B642B216486921007BBAEC /* WTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B642B016486921007BBAEC /* WTViewController_iPhone.xib */; };
+		A9B642B516486921007BBAEC /* WTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B642B316486921007BBAEC /* WTViewController_iPad.xib */; };
+		A9B642BD16486922007BBAEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B642BC16486922007BBAEC /* SenTestingKit.framework */; };
+		A9B642BE16486922007BBAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B6429516486921007BBAEC /* UIKit.framework */; };
+		A9B642BF16486922007BBAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B6429716486921007BBAEC /* Foundation.framework */; };
+		A9B642C716486922007BBAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B642C516486922007BBAEC /* InfoPlist.strings */; };
+		A9B642CA16486922007BBAEC /* MrJenkinsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B642C916486922007BBAEC /* MrJenkinsAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B642C016486922007BBAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B6428816486921007BBAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B6429016486921007BBAEC;
+			remoteInfo = MrJenkinsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9B6429116486921007BBAEC /* MrJenkinsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrJenkinsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B6429516486921007BBAEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9B6429716486921007BBAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9B6429916486921007BBAEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9B6429D16486921007BBAEC /* MrJenkinsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrJenkinsApp-Info.plist"; sourceTree = "<group>"; };
+		A9B6429F16486921007BBAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9B642A116486921007BBAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9B642A316486921007BBAEC /* MrJenkinsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MrJenkinsApp-Prefix.pch"; sourceTree = "<group>"; };
+		A9B642A416486921007BBAEC /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		A9B642A516486921007BBAEC /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		A9B642A716486921007BBAEC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9B642A916486921007BBAEC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9B642AB16486921007BBAEC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9B642AD16486921007BBAEC /* WTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTViewController.h; sourceTree = "<group>"; };
+		A9B642AE16486921007BBAEC /* WTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTViewController.m; sourceTree = "<group>"; };
+		A9B642B116486921007BBAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WTViewController_iPhone.xib; sourceTree = "<group>"; };
+		A9B642B416486921007BBAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WTViewController_iPad.xib; sourceTree = "<group>"; };
+		A9B642BB16486922007BBAEC /* MrJenkinsAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrJenkinsAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B642BC16486922007BBAEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9B642C416486922007BBAEC /* MrJenkinsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrJenkinsAppTests-Info.plist"; sourceTree = "<group>"; };
+		A9B642C616486922007BBAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9B642C816486922007BBAEC /* MrJenkinsAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MrJenkinsAppTests.h; sourceTree = "<group>"; };
+		A9B642C916486922007BBAEC /* MrJenkinsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrJenkinsAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B6428E16486921007BBAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B6429616486921007BBAEC /* UIKit.framework in Frameworks */,
+				A9B6429816486921007BBAEC /* Foundation.framework in Frameworks */,
+				A9B6429A16486921007BBAEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B642B716486922007BBAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B642BD16486922007BBAEC /* SenTestingKit.framework in Frameworks */,
+				A9B642BE16486922007BBAEC /* UIKit.framework in Frameworks */,
+				A9B642BF16486922007BBAEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B6428616486921007BBAEC = {
+			isa = PBXGroup;
+			children = (
+				A9B6429B16486921007BBAEC /* MrJenkinsApp */,
+				A9B642C216486922007BBAEC /* MrJenkinsAppTests */,
+				A9B6429416486921007BBAEC /* Frameworks */,
+				A9B6429216486921007BBAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B6429216486921007BBAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6429116486921007BBAEC /* MrJenkinsApp.app */,
+				A9B642BB16486922007BBAEC /* MrJenkinsAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B6429416486921007BBAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6429516486921007BBAEC /* UIKit.framework */,
+				A9B6429716486921007BBAEC /* Foundation.framework */,
+				A9B6429916486921007BBAEC /* CoreGraphics.framework */,
+				A9B642BC16486922007BBAEC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9B6429B16486921007BBAEC /* MrJenkinsApp */ = {
+			isa = PBXGroup;
+			children = (
+				A9B642A416486921007BBAEC /* WTAppDelegate.h */,
+				A9B642A516486921007BBAEC /* WTAppDelegate.m */,
+				A9B642AD16486921007BBAEC /* WTViewController.h */,
+				A9B642AE16486921007BBAEC /* WTViewController.m */,
+				A9B642B016486921007BBAEC /* WTViewController_iPhone.xib */,
+				A9B642B316486921007BBAEC /* WTViewController_iPad.xib */,
+				A9B6429C16486921007BBAEC /* Supporting Files */,
+			);
+			path = MrJenkinsApp;
+			sourceTree = "<group>";
+		};
+		A9B6429C16486921007BBAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6429D16486921007BBAEC /* MrJenkinsApp-Info.plist */,
+				A9B6429E16486921007BBAEC /* InfoPlist.strings */,
+				A9B642A116486921007BBAEC /* main.m */,
+				A9B642A316486921007BBAEC /* MrJenkinsApp-Prefix.pch */,
+				A9B642A716486921007BBAEC /* Default.png */,
+				A9B642A916486921007BBAEC /* Default@2x.png */,
+				A9B642AB16486921007BBAEC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B642C216486922007BBAEC /* MrJenkinsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B642C816486922007BBAEC /* MrJenkinsAppTests.h */,
+				A9B642C916486922007BBAEC /* MrJenkinsAppTests.m */,
+				A9B642C316486922007BBAEC /* Supporting Files */,
+			);
+			path = MrJenkinsAppTests;
+			sourceTree = "<group>";
+		};
+		A9B642C316486922007BBAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B642C416486922007BBAEC /* MrJenkinsAppTests-Info.plist */,
+				A9B642C516486922007BBAEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B6429016486921007BBAEC /* MrJenkinsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B642CD16486922007BBAEC /* Build configuration list for PBXNativeTarget "MrJenkinsApp" */;
+			buildPhases = (
+				A9B6428D16486921007BBAEC /* Sources */,
+				A9B6428E16486921007BBAEC /* Frameworks */,
+				A9B6428F16486921007BBAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrJenkinsApp;
+			productName = MrJenkinsApp;
+			productReference = A9B6429116486921007BBAEC /* MrJenkinsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B642BA16486922007BBAEC /* MrJenkinsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B642D016486922007BBAEC /* Build configuration list for PBXNativeTarget "MrJenkinsAppTests" */;
+			buildPhases = (
+				A9B642B616486922007BBAEC /* Sources */,
+				A9B642B716486922007BBAEC /* Frameworks */,
+				A9B642B816486922007BBAEC /* Resources */,
+				A9B642B916486922007BBAEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B642C116486922007BBAEC /* PBXTargetDependency */,
+			);
+			name = MrJenkinsAppTests;
+			productName = MrJenkinsAppTests;
+			productReference = A9B642BB16486922007BBAEC /* MrJenkinsAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B6428816486921007BBAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Wikitude;
+			};
+			buildConfigurationList = A9B6428B16486921007BBAEC /* Build configuration list for PBXProject "MrJenkinsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9B6428616486921007BBAEC;
+			productRefGroup = A9B6429216486921007BBAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B6429016486921007BBAEC /* MrJenkinsApp */,
+				A9B642BA16486922007BBAEC /* MrJenkinsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B6428F16486921007BBAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B642A016486921007BBAEC /* InfoPlist.strings in Resources */,
+				A9B642A816486921007BBAEC /* Default.png in Resources */,
+				A9B642AA16486921007BBAEC /* Default@2x.png in Resources */,
+				A9B642AC16486921007BBAEC /* Default-568h@2x.png in Resources */,
+				A9B642B216486921007BBAEC /* WTViewController_iPhone.xib in Resources */,
+				A9B642B516486921007BBAEC /* WTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B642B816486922007BBAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B642C716486922007BBAEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9B642B916486922007BBAEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B6428D16486921007BBAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B642A216486921007BBAEC /* main.m in Sources */,
+				A9B642A616486921007BBAEC /* WTAppDelegate.m in Sources */,
+				A9B642AF16486921007BBAEC /* WTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B642B616486922007BBAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B642CA16486922007BBAEC /* MrJenkinsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B642C116486922007BBAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B6429016486921007BBAEC /* MrJenkinsApp */;
+			targetProxy = A9B642C016486922007BBAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B6429E16486921007BBAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B6429F16486921007BBAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9B642B016486921007BBAEC /* WTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B642B116486921007BBAEC /* en */,
+			);
+			name = WTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A9B642B316486921007BBAEC /* WTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B642B416486921007BBAEC /* en */,
+			);
+			name = WTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A9B642C516486922007BBAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B642C616486922007BBAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B642CB16486922007BBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9B642CC16486922007BBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B642CE16486922007BBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrJenkinsApp/MrJenkinsApp-Prefix.pch";
+				INFOPLIST_FILE = "MrJenkinsApp/MrJenkinsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9B642CF16486922007BBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrJenkinsApp/MrJenkinsApp-Prefix.pch";
+				INFOPLIST_FILE = "MrJenkinsApp/MrJenkinsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9B642D116486922007BBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MrJenkinsApp.app/MrJenkinsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrJenkinsApp/MrJenkinsApp-Prefix.pch";
+				INFOPLIST_FILE = "MrJenkinsAppTests/MrJenkinsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A9B642D216486922007BBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MrJenkinsApp.app/MrJenkinsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrJenkinsApp/MrJenkinsApp-Prefix.pch";
+				INFOPLIST_FILE = "MrJenkinsAppTests/MrJenkinsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B6428B16486921007BBAEC /* Build configuration list for PBXProject "MrJenkinsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B642CB16486922007BBAEC /* Debug */,
+				A9B642CC16486922007BBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B642CD16486922007BBAEC /* Build configuration list for PBXNativeTarget "MrJenkinsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B642CE16486922007BBAEC /* Debug */,
+				A9B642CF16486922007BBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B642D016486922007BBAEC /* Build configuration list for PBXNativeTarget "MrJenkinsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B642D116486922007BBAEC /* Debug */,
+				A9B642D216486922007BBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B6428816486921007BBAEC /* Project object */;
+}
