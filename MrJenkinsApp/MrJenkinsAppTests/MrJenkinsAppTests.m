@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in MrJenkinsAppTests");
+    STAssertEquals(@(2), @(1+1), @"2 should equal 1+1");
 }
 
 @end
