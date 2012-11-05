@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STAssertEquals(@(2), @(1+1), @"2 should equal 1+1");
+    STAssertEquals(@(2), @(1+2), @"2 should equal 1+1");
 }
 
 @end
