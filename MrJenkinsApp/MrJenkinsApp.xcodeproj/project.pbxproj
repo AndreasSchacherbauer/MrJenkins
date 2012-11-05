@@ -422,7 +422,7 @@
 				GCC_PREFIX_HEADER = "MrJenkinsApp/MrJenkinsApp-Prefix.pch";
 				INFOPLIST_FILE = "MrJenkinsAppTests/MrJenkinsAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -439,7 +439,7 @@
 				GCC_PREFIX_HEADER = "MrJenkinsApp/MrJenkinsApp-Prefix.pch";
 				INFOPLIST_FILE = "MrJenkinsAppTests/MrJenkinsAppTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
